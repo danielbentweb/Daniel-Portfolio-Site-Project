@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body nav {
+
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: black;
+    height: 85px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 330%;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+}
+
+.logo img {
+	height: 60px;
+	padding: 0px 60px;
+	margin: 12px;
+}
+
+/* About Me */
+
+.content-wrap {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.about-me h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    font-variant-caps: all-petite-caps;
+    border-radius: 27px;
+}
+
+.about-me img {
+    width: 350px;
+    float: left;
+    margin-right: 50px;
+    overflow: hidden;
+    margin-left: -100px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 100px;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.social-links img {
+    width: 150px;
+    padding: 50px;
+}
+
+.social-links {
+	margin: auto;
+}

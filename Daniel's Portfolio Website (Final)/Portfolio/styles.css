@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body nav {
+
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: black;
+    height: 85px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 330%;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+}
+
+.logo img {
+	height: 60px;
+	padding: 0px 60px;
+	margin: 12px;
+}
+
+/* Portfolio */
+
+img {
+    max-width: 400px;
+}
+
+.gallery {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.gallery img {
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+    width: 400px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 100px;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.social-links img {
+    width: 150px;
+    padding: 50px;
+}
+
+.social-links {
+	margin: auto;
+}

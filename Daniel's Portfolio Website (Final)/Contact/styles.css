@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body nav {
+
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: black;
+    height: 85px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 330%;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+}
+
+.logo img {
+	height: 60px;
+	padding: 0px 60px;
+	margin: 12px;
+}
+
+/* Contact Form */
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 15px;
+  }
+
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    font-variant-caps: all-petite-caps;
+    border-radius: 27px;
+  }
+
+  input[type=submit]:hover {
+    background-color: #3e3e3e;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .contact-form {
+      padding-left: 400px;
+      padding-right: 400px;
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 100px;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.social-links img {
+    width: 150px;
+    padding: 50px;
+}
+
+.social-links {
+	margin: auto;
+}
